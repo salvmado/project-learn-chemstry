@@ -5,6 +5,74 @@
 }
 
 body {
-    background: linear-gradient(#e66465, #9198e5);
+    background-color: #44145C;
 }
+
+/* HEADER  */
+
+.header {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #29CB89;
+}
+
+.logo_title {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    width: 2rem;
+    font-family: 'Squada One', cursive;
+    font-weight: 400;
+    font-size: calc(2rem + 1vw);
+    margin-left: .5rem;
+    color: #29CB89;
+}
+
+.img {
+    width: calc(4rem + 1vw);
+    height: calc(4rem + 1vw);
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registro a {
+    color: #44145C;
+    background-color: #29CB89;
+    border: 1px solid #29CB89;
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+    margin: .7rem 0px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: calc(1rem + .5vw);
+}
+
+.registro a:hover {
+    color: #29CB89;
+    background-color: #44145C;
+    border: 1px solid #29CB89;
+}
+
+@media (min-width: 768px) {
+    .registro {
+        flex-direction: row;
+    }
+    .registro a {
+        margin-left: 1rem;
+    }
+}
+
+
+/* MAIN  */
+
+
 
